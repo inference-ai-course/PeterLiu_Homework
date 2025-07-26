@@ -1,0 +1,35 @@
+{
+  "name": "web-table-scraper",
+  "description": "Scrape table from webpage and record it in Notion.",
+  "steps": [
+    {
+      "plugin": "puppeteer",
+      "input": {
+        "url": "https://example.com/tablepage",
+        "selector": "table",
+        "extract": "table"
+      },
+      "save_as": "scraped_table"
+    },
+    {
+      "plugin": "filesystem",
+      "input": {
+        "path": "./data/scraped_table.json",
+        "content": "{{scraped_table}}"
+      }
+    },
+    {
+      "plugin": "notion",
+      "input": {
+        "database_id": "YOUR_NOTION_DATABASE_ID",
+        "properties": {
+          "Name": "Web Table - {{date}}",
+          "Source URL": "https://example.com/tablepage",
+          "Date": "{{now}}",
+          "Content Summary": "Table with {{scraped_table.length}} rows scraped from the site."
+        },
+        "content": "```json\n{{scraped_table}}\n```"
+      }
+    }
+  ]
+}
