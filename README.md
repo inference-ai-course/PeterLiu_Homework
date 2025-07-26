@@ -14,7 +14,7 @@ This repository contains my submission for the Machine Learning Engineering (MLE
 
 - ✅ Install Ollama and run LLMs locally
 - ✅ Integrate LangChain and Gradio
-- ✅ Build a multi-plugin AI Agent (Brave Search, Puppeteer, Filesystem, Notion, GitHub,
+- ✅ Build a multi-plugin AI Agent (Brave Search, Puppeteer, Filesystem, Notion, GitHub)
 - ✅ Optional: Automatically scrape and document structured data in Notion
 
 ## 📸 Screenshots
