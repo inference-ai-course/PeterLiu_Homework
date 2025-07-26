@@ -1,6 +1,6 @@
 # 🧠 Machine Learning Engineering Homework
 
-This repository contains my submission for the Machine Learning Engineering (MLE) progra
+This repository contains my submission for the Machine Learning Engineering (MLE) program
 
 ## 🔗 Project Link
 
