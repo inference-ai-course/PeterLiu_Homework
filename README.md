@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Engineer Homework
+# 🧠 Machine Learning Engineering Homework
 
 This repository contains my submission for the Machine Learning Engineering (MLE) progra
 
