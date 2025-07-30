@@ -1,0 +1,6 @@
+#step1
+D:\Users\Administrator\anaconda3\envs\RAG_evn\python.exe -m venv .venv
+#step2
+.venv\scripts\activate
+#step3
+pip install -r requirements.txt

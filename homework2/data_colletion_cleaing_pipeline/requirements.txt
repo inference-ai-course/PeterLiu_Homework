@@ -1,0 +1,8 @@
+trafilatura
+yt-dlp
+openai-whisper
+pytesseract
+datasketch
+pillow
+jupyter
+
