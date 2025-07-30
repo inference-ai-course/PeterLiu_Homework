@@ -1,0 +1,7 @@
+I’m working on Week 2 (Corpus Construction). My OCR pipeline works for most PDFs, but fails on some scanned papers. I'm using Tesseract with PSM 3. I expected a clean .txt file, but get mostly gibberish.
+
+I’ve tried adjusting PSM and languages (-l eng+deu), but the result doesn’t improve.
+
+Here’s a sample PDF and my code snippet: [paste code].
+
+Can someone explain what OCR limitations I’m hitting here and suggest improvements?

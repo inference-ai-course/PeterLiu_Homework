@@ -1,0 +1,39 @@
+I am working on week2(coupus construction), YouTube transcription using yt-dlp +whisper.
+---------------------------------------------------------------------------
+but fails on dwonload 
+DownloadError: ERROR: 
+[download] Got error: (<urllib3.connection.HTTPSConnection object at 0x00000223EFE436D0>, 'Connection to rr2---sn-cx5o4aqj5-tt1e.googlevideo.com timed out. (connect timeout=20.0)')
+
+I have tried use GPT resolve this problem, just say youtube dont allow visit it like that
+
+Here is my code :
+
+import whisper
+import yt_dlp
+import os
+
+model = whisper.load_model("base")
+youtube_urls = ["https://www.youtube.com/watch?v=2lAe1cqCOXo"]
+
+video_texts = []
+
+for url in youtube_urls:
+    ydl_opts = {'format': 'bestaudio', 'outtmpl': 'temp_audio.%(ext)s','geo_bypass': True,
+    'noplaylist': True,'quiet': False}
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(url, download=True)
+        audio_path = f"temp_audio.{info['ext']}"
+
+    result = model.transcribe(audio_path)
+    video_texts.append(result["text"])
+    os.remove(audio_path)
+    print(f"🎙️ Transcribed: {url}")
+
+
+can some explain that and suggest improvement?
+
+my resovle this proble is like : use  Y2Mate convert video to mp3, 
+
+then use whisper convert mp3 to text. 
+
+my questoin is youtube why is fail, use other methed is ok?
