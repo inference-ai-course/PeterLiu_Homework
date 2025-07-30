@@ -42,7 +42,7 @@ Each week's submission is organized into its own folder (e.g., `homework1/`, `ho
 
 **What was done:**
 
-- ✅ Web scraping (text and PNG) and audio crawling (Mandarin `.mp3`)
+- ✅ Web scraping (text and PNG) and audio crawling ( `.mp3`)
 - ✅ Applied **content extraction**, **language filtering**, and **format standardization**
 - ✅ Used **MinHash** + `datasketch` to detect and remove duplicate text data
 - ✅ Final dataset stored in a clean, deduplicated **JSONL format**
