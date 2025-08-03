@@ -1,98 +1,99 @@
-# Homework 3 - Voice-Based Personal AI Assistant
+# Homework 3 - Voice-Based AI Assistant (LLM + ASR + TTS)
 
-## 🗣️ Overview
+## 📚 Project Overview
 
-This assignment focuses on building a voice-driven AI agent capable of natural conversation using:
+This project implements a local, modular **Voice Agent** powered by:
 
-- 🎤 **ASR**: Automatic Speech Recognition (Whisper or Faster-Whisper)
-- 🧠 **LLM**: Local LLM inference (via Ollama running LLaMA3 8B)
-- 🔊 **TTS**: Text-to-Speech using Edge-TTS
-- 🛜 **FastAPI** backend
-- 🧠 **Multi-turn memory** and optional wake-word support
+- 🎤 **ASR**: Converts speech to text (using Faster-Whisper or Whisper.cpp)
+- 🧠 **LLM**: Responds intelligently using local Ollama (LLaMA3 or similar)
+- 🔊 **TTS**: Converts text responses to speech using Edge TTS
+- 🛜 **FastAPI**: Exposes the agent as a web API
+- 🧠 **Memory**: Maintains multi-turn conversation history
 
 ---
 
 ## 📁 Folder Structure
-
-> homework3/
-> ├── audio/ # Input/output audio files
-> ├── main.py # FastAPI backend
-> ├── llm_client.py # Local Ollama query module
-> ├── tts.py # Edge TTS module
-> ├── asr.py # ASR (Faster-Whisper or Whisper.cpp)
-> ├── memory.py # Session-based memory handler
-> ├── requirements.txt # Python dependencies
-> ├── Dockerfile # Optional Docker deployment
-> ├── README.md # Project instructions (this file)
-
+homework3/
+├── audio/ # Stores input .wav and output .mp3 audio files
+├── main.py # FastAPI backend: handles API requests
+├── llm_client.py # Queries the local Ollama LLM
+├── tts.py # Edge-TTS: converts text to speech
+├── asr.py # ASR: transcribes audio via Faster-Whisper or Whisper.cpp
+├── memory.py # In-memory conversation history manager
+├── requirements.txt # Python dependencies
+├── Dockerfile # Optional: build and run via Docker
+├── README.md # Project documentation (this file)
 
 ---
 
-## 🚀 Features
+## 🛠️ Setup & Installation
 
-- Upload `.wav` files to `/voice-chat/` API and get `.mp3` replies
-- Multi-turn memory using in-memory `session_id`
-- Modular structure for ASR / LLM / TTS
-- Supports both Whisper (Hugging Face) and Whisper.cpp / Vosk
-- Local model inference using Ollama + LLaMA3
-- Easily deployable via Docker
+### 1. Install Python dependencies
 
----
 
-## 🛠️ Setup Instructions
-
-### 1. Install dependencies
-
-```bash
 pip install -r requirements.txt
+### 2. Start your LLM (Ollama)
 
-###  🔁 API Usage
+ollama run llama3
+Make sure Ollama is installed and running: https://ollama.com
+## 🚀 Run the API
+
+uvicorn main:app --reload
+Once running, access your API at:
+http://localhost:8000/docs
+
+## 🎧 Example: Voice Chat API
 POST /voice-chat/
-Send a .wav file and get AI voice reply.
-
-Request:
+Send a .wav file and get a .mp3 voice response from the LLM.
 curl -X POST http://localhost:8000/voice-chat/ \
-  -F "audio=@user_input.wav" \
-  -F "session_id=session123" \
-  --output reply.mp3
-🧠 Memory
-Each session is tracked via session_id in memory.
-You can extend memory.py to use Redis, SQLite, or LangChain memory later.
+  -F "audio=@audio/user_input.wav" \
+  -F "session_id=test123" \
+  --output audio/reply.mp3
+Response:
+A synthesized .mp3 audio file
 
-🐳 Docker Support
-To run everything in Docker:
+Auto-saved multi-turn memory for the session
+
+## 🧠 Memory Module
+memory.py handles per-session conversation history.
+
+Each session has its own list of message turns, useful for multi-turn LLM context.
+
+Want persistent memory? Swap in Redis, SQLite, or LangChain.
+
+## 🔊 ASR Options
+You can choose:
+
+Faster-Whisper (default): asr.py loads model via Hugging Face
+
+Whisper.cpp or Vosk: supported with slight config changes
+
+## 🔈 TTS: Edge-TTS
+Uses Microsoft's edge-tts for fast and natural speech
+
+Generates reply.mp3 in audio/ folder
+
+## 🐳 Docker Support (Optional)
+Build and run the entire service in a container:
 
 docker build -t voice-agent .
 docker run -p 8000:8000 voice-agent
-For Ollama model, run it on your host machine and ensure FastAPI inside Docker can reach http://host.docker.internal:11434
+Ollama must run outside Docker on your host machine
+Inside container, access Ollama at http://host.docker.internal:11434
 
-🧪 Future Work
-Real-time streaming audio (WebSocket or MediaStream)
+## 🧪 Future Work
+✅ Real-time streaming audio input
 
-Wake-word detection via porcupine or VAD
+✅ WebSocket API for live dialogue
 
-Voice UI with Streamlit or web client
+🔴 Wake-word detection (e.g., with Porcupine or VAD)
 
-Local embedding + RAG integration
+🔴 UI client (React / Streamlit)
 
-✍️ Author
+🔴 RAG with vector store + embeddings (personal docs)
+
+## ✍️ Author
 Peter Liu
 Assignment for: Machine Learning Engineer in the Generative AI Era
-
----
-
-### ✅ 提交到 GitHub
-
-在终端中执行：
-
-```bash
-cd ~/PeterLiu_Homework/homework3
-touch README.md
-
-
-
-git add README.md
-git commit -m "Add voice agent README for homework3"
-git push origin main
-
-
+GitHub: @Petercgliu
+  
