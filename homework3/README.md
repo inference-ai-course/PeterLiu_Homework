@@ -14,16 +14,16 @@ This assignment focuses on building a voice-driven AI agent capable of natural c
 
 ## 📁 Folder Structure
 
->homework3/
->├── audio/ # Input/output audio files
->├── main.py # FastAPI backend
->├── llm_client.py # Local Ollama query module
->├── tts.py # Edge TTS module
->├── asr.py # ASR (Faster-Whisper or Whisper.cpp)
->├── memory.py # Session-based memory handler
->├── requirements.txt # Python dependencies
->├── Dockerfile # Optional Docker deployment
->├── README.md # Project instructions (this file)
+> homework3/
+> ├── audio/ # Input/output audio files
+> ├── main.py # FastAPI backend
+> ├── llm_client.py # Local Ollama query module
+> ├── tts.py # Edge TTS module
+> ├── asr.py # ASR (Faster-Whisper or Whisper.cpp)
+> ├── memory.py # Session-based memory handler
+> ├── requirements.txt # Python dependencies
+> ├── Dockerfile # Optional Docker deployment
+> ├── README.md # Project instructions (this file)
 
 
 ---
@@ -94,4 +94,5 @@ touch README.md
 git add README.md
 git commit -m "Add voice agent README for homework3"
 git push origin main
+
 
