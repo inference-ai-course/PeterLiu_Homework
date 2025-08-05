@@ -1,5 +1,3 @@
----
-
 ✅ Week 4 – Retrieval-Augmented Generation (RAG) with arXiv Papers
 
 🎯 Goal:
