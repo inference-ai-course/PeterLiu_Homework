@@ -106,7 +106,7 @@ You can find relevant screenshots in each week’s folder:
 - `homework1/screenshots/`  
 - `homework2/screenshots/`  
 - `homework3/screenshots/` (if applicable)  
-- `homework4/screenshots/` (if applicable)
+- `homework4/screenshots/` (run homework4 on GPU server)
 
 ---
 
