@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+faiss-cpu
+numpy
+sqlite3  # Usually builtin with Python
+rank_bm25  # optional if you switch BM25 outside SQLite
