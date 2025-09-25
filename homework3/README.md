@@ -15,7 +15,7 @@ This project implements a local, modular **Voice Agent** powered by:
 ## 📁 Folder Structure
 
 
-```bash
+```text
 
 homework3/
 ├── audio/ # Stores input .wav and output .mp3 audio files
@@ -28,6 +28,7 @@ homework3/
 ├── Dockerfile # Optional: build and run via Docker
 ├── README.md # Project documentation (this file)
 
+```
 ---
 
 ## 🛠️ Setup & Installation
@@ -101,6 +102,7 @@ Peter Liu
 Assignment for: Machine Learning Engineer in the Generative AI Era
 GitHub: @Petercgliu
   
+
 
 
 
