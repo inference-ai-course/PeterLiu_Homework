@@ -138,4 +138,18 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   ```bash
   pip install streamlit openai python-dotenv numpy SpeechRecognition gTTS playsound sounddevice
   streamlit run voice_tcm_agent/voice_tcm_agent.py
+Folder: homework910/
 
+Screenshot:
+
+</details>
+📫 Contact
+For questions or clarifications, reach out via Canvas or email.
+
+⚡ Suggested GitHub Badges
+less
+Copy code
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-1.24-orange)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-🤗-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
