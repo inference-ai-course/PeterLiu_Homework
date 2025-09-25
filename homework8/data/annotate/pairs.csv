@@ -1,0 +1,335 @@
+paper_id,title,summary_A,summary_B,preferred
+2508.21070v1,Dress&Dance: Dress up and Dance as You Like It - Technical Preview,"an input garments worn by other users.
+Fig. 2 highlights a few applications of Dress&Dance.
+The emergence of diffusion models 
+[17,18] has enabled video
+diffusion with realistic
+and natural-looking motion
+[19]. Dress&Dance takes advantage of these
+diffusion models to enable
+try-on with virtual garments.
+Dress&Dance generates 5-second-long 24 FPS
+virtual try-on videos for a user wearing a desired garment,
+including its motion. The
+generated video is
+represented as a sequence of
+images in a video diffusion
+framework.
+Dress&Dance can be used in
+multiple ways. For example,
+Dress&Dance can generate
+complicated dancing motions
+by inputting the desired
+garment, and Dress&Dance
+can generate the motion of
+both top and bottom gar-
+ments simultaneously.
+Figure 3. Given a user image, a desired garment, and an
+image of a reference video, we extract a detailed text
+description via GPT [18]. Our Dress&","y other users.
+Fig. 2 highlights a few applications of Dress&Dance.
+The emergence of diffusion models 
+- Variational autoencoders (VAE) - 
+- Encoder-Decoder (Decode) networks 
+- Autoencoding variational models (AEVM) - are 
+a collection of models inspired by diffusion 
+methods to generate high-quality, 
+3
+low-dimensional visualizations. Dress&Dance falls in the category
+of AEVM, taking the idea of diffusion from latent space
+(a mathematical technique in machine learning to 
+simulate and extract hidden features) to text 
+and image spaces. Our framework supports diverse 
+text prompts to control the movements within the video.
+2
+arXiv:2508.21070v1  [cs.CV] 28 Aug 2025
+
+Section 2 presents the data, models, and frameworks used in
+the research.
+Section 3 presents our results, including a quantitative compar-
+ision of our method to baselines and a qualitative comparison 
+of the generated videos","B"
+
+2508.21061v1,OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models,"s, Goal Tracking, Goal Visualization
+
+Abstract:
+Chat interfaces play a crucial role in improving communication and user engagement in large language models (LLMs). However, LLMs are complex systems, and their behavior is often opaque, making it challenging for users to understand and manage their conversations. This paper proposes OnGoal, a chat interface that aims to enhance user engagement and communication by providing real-time feedback on goal alignment, explanations for evaluation results, and overviews of goal progression over time. OnGoal provides visualization of conversational goals, highlights real-time feedback, and controls goals by locking and completing them. OnGoal's design is informed by cognitive psychology and conversational AI research, and it is evaluated against a baseline chat interface without goal tracking. Participants spent less time and effort to achieve their",", Visualization, 
+• OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models, 
+Adam J Coscia, Shunan Guo, and Alex Endert 
+• Adobe Research, Georgia Institute of Technology, Atlanta, Georgia, USA
+• Atlassian, Sydney, Australia
+• IBM Research, Tainan, Taiwan
+• Microsoft, Redmond, Washington, USA
+• 
+Abstract
+The rapid growth of large language models (LLMs) has led to the emergence of new research areas focused on human-centered computing and dialogue models. This work presents OnGoal, a user interface (UI) and a dialogue model for assisting goal management in multi-turn dialogues with LLMs. OnGoal leverages LLM-assisted evaluation, explanations for evaluation results with examples, and overviews of goal progression over time, enabling users to navigate complex dialogues more effectively. To this end, OnGoal tracks and visualizes conversational","B"
+2508.21051v1,Enabling Equitable Access to Trustworthy Financial Reasoning,"vice is accurate and accessible to a broad audience. One approach is to integrate large language models (LLMs) with a symbolic solver, allowing for the calculation of tax obligations. LLMs are pre-trained on a large corpus of natural language, enabling them to understand and reason about the language. Symbolic solvers are then used to combine the LLM’s reasoning with information from formal logic programs, allowing for the resolution of tax-related problems. The two approaches are commonly used together, with LLMs used to reason about the tax rules, and symbolic solvers used to generate a formal proof for the LLM’s reasoning. However, existing approaches are often limited by their ability to handle complex reasoning tasks. For example, symbolic solvers are often limited in their ability to handle cases with more than a few words, making them inadequate for tax-related tasks. Furthermore,","n informal logic programming solution.
+This approach has the potential to be more efficient and accurate compared to relying on rule-based solutions.
+Furthermore, this system can be easily distributed to community members, without relying on expensive hardware or software.
+
+LLMs are commonly used in many applications, such as Natural Language Processing (NLP), Natural Language Generation (NLG), and Speech Recognition. We combine the LLM with an informal logic programming model, which can be deployed in a cloud computing environment (Kagstrom et al. 2019).
+We developed an informal logic programming language (I-LPL), which can translate plain-text rules from one logical language into another formal logic language.
+We can utilize an existing language model (i.e., an AI system that can reason in an abstract domain with an unknown or weak knowledge base), and this can speed up the translation","B"
+2508.21049v1,Re-Representation in Sentential Relation Extraction with Sequence Routing Algorithm,"nd e
+As a result, the goal of this paper is to introduce
+dynamic routing in capsules for improved performance
+in sentential RE. Dynamic routing is a method for
+searching for the best routing path for a given
+problem. It has been used for routing in vehicular
+networks and wireless networks (Agarwal et al., 2012).
+In this paper, we propose a dynamic routing algorithm
+for sentential RE. We show that dynamic routing can
+improve the performance of sentential RE over the
+state-of-the-art. To that end, we propose a novel
+representation for sentential RE in dynamic
+routing. This representation allows to better re-
+present entities and their relations, and to re-
+present entities and their relations more effectively
+than the previous representations. We evaluate our
+proposed approach on two large-scale datasets: Tacred,
+Tacredrev, Retacred, and Conll04. We use two
+comparative methods: BLEU and RO","ote also the proportional word analogy
+constructed from the given example here, ""Alan Turing"":
+1912 :: ""C.F.GauSS"":1777
+works introduce complicated models that account
+for extra additional details. To that end, the results
+of incorporating additional details are not coher-
+ent. As example, while in some studies entity type
+has shown to improve performance (Bastos et al.,
+2021), in some others however, it has shown to de-
+grade performance(Vashishth et al., 2018). As such,
+weather there are still room for improvement or if
+low performance are due to noise and e
+
+
+3483914, 1276477400, ""Mother"", 0.343, ""Person"", 1, ""Subject"", 0, ""Indefinite""
+3483914, 1276477400, ""Daughter"", 0.011, ""Person"", 1, ""Subject"", 0, ""Indefinite""
+3483914, 1276477400, ""Brother"", 0.137, ""Person"", 1, ""Subject"", 0, ""Indefinite""
+3483914, 1276477400, ""Son"", 0.193, ""Person"", 1, ""Subject"", 0, ""Indefinite""
+3483914, 1276477400","B"
+2508.21040v1,FW-GAN: Frequency-Driven Handwriting Synthesis with Wave-Modulated MLP Generator,"ife, from note-taking in the
+office to personal communication, with many people relying on their hands to
+write and convey messages.
+
+Despite the widespread use of handwriting, there is a growing need for
+high-quality, style-consistent handwriting synthesis to augment training
+samples in low-resource HTR pipelines. Handwriting synthesis aims to re-
+produce handwriting with high fidelity and style, while preserving the
+spatial relationships and stylistic cues that are crucial for understanding
+handwriting. This is particularly challenging due to the limitations of
+conventional convolutional architectures, which struggle to model long-
+range dependencies and complex stroke patterns.
+
+In this paper, we propose a novel one-shot handwriting synthesis framework
+called FW-GAN, which generates realistic, writer-consistent text from a single
+example. Our generator integrates a phase-aware Wave-ML","tion gap
+between the digital and analog worlds. However, current handwriting
+recognition systems face two major limitations. First, conventional
+convolutional architectures struggle to model long-range dependencies and
+complex stroke patterns. Second, they largely ignore the crucial role of fre-
+quency information, which is fundamental to capturing fine-grained stylistic
+and structural details in handwriting. To address these challenges, we pro-
+pose a one-shot handwriting synthesis framework called FW-GAN, which
+generates realistic, writer-consistent text from a single example. Our
+generator integrates a phase-aware Wave-MLP architecture to capture
+spatial relationships and preserve subtle stylistic and structural details
+in handwriting while preserving high-frequency components. In this preprint,
+we analyze the existing state of handwriting synthesis and propose two
+major contributions","B"
+2508.21038v1,On the Theoretical Limitations of Embedding-Based Retrieval,"
+
+In this work, we examine the theoretical limitations of embedding-based retrieval in realistic
+settings. We connect known results in learning theory, showing that the number of top-𝑘subsets of
+documents capable of being returned as the result of some query is limited by the dimension of the
+embedding. We empirically show that this holds true even if we restrict to k=2, and directly optimize
+on the test set with free parameterized embeddings. We then create a realistic dataset called LIMIT that
+stress tests models based on these theoretical results, and observe that even state-of-the-art models
+fail on this dataset despite the simple nature of the task. Our work shows the limits of embedding
+models under the existing single vector paradigm and calls for future research to develop methods that
+can resolve this fundamental limitation.
+
+Figure captions (text-only):
+(none)
+
+References:
+[Lee","ing relevance in ways that require reasoning. One subtask inclu
+es the ability to predict a sentence given its context (a task that is difficult due to unrealistic
+queries in the context of language use). The most extensive recent work in neural IR is ""The
+Challenges of Multi-Dimensional and Multi-View Convolutional Neural Networks for IR (Crawford et
+al., 2019) which explores the limitations of using convolutional neural networks (CNN) in
+retrieval tasks and the need for non-overly-dimensionalized embedding layers (Crawford et al., 2021
+).
+
+This theoretical limitation has been addressed in some previous works. Boratko et al.
+[Boratko et al., 2019], for example, showed that the number of top-k subsets of documents
+that could be returned as the result of a single query is limited by the embedding
+dimension, and proposed methods to bypass this limitation. Weller et al. [Weller et al., 2020","B"
+2508.21024v1,An Agile Method for Implementing Retrieval Augmented Generation Tools in Industrial SMEs,"s are not
+accurate [3], which can result in significant delays in data collection, which in turn can lead to costly 
+re-runs and rework [4]. In this paper, we introduce EASI-RAG, an Enterprise Application Support for Industrial 
+RAG (Retrieval Augmented Generation) tools. EASI-RAG is a structured, agile method designed to facilitate the 
+deployment of RAG-based tools in industrial SME contexts. EASI-RAG is based on method engineering principles 
+and comprises well-defined roles, activities, and techniques. The method was validated through a real-world 
+case study in an environmental testing laboratory, where a RAG tool was implemented to answer operators’ queries 
+using data extracted from operational procedures. The system was deployed in less than a month by a team 
+with no prior RAG experience and was later iteratively improved based on user feedback. Results demonstrate 
+that EASI-RA","ource, industrial contexts. For instance, an LLM trained on a billion-word corpus will 
+cannot reasonably understand new, unseen contexts without additional training. These limitations threaten 
+the application of LLMs to industrial SMEs. Enterprise-level applications require specialised resources and 
+skilled personnel, which is often not feasible in SMEs. SMEs, for instance, do not have the capital, 
+technology, and manpower needed to implement and maintain an LLM [3,4]. Therefore, it is essential to explore
+alternative solutions that offer similar benefits of LLMs but without the issues that arise from their hallucinations.
+
+In this paper, we propose an agile method for deploying retrieval augmented generation (RAG) in SMEs. Our
+method is structured and agile in nature, aiming to facilitate the deployment of RAG-based tools within SME
+contexts with minimal resources and lack of expert","B"
+2508.21022v1,Fast Convergence Rates for Subsampled Natural Gradient Algorithms on Quadratic Model Problems,"ari, 1998), which takes
+advantage of the 
+regularization of the loss function to accelerate the convergence rate.
+
+In this paper, we address the optimization challenges posed by parametric
+optimization problems by analyzing the convergence of SNGD, a type of NGD that is
+specifically designed for such problems. We derive new results for the first fast
+convergence rate for SNGD, which is equivalent to a regularized Kaczmarz method
+(Kaczmarz, 1959) for SNGD. We then extend the analysis of the regularized
+Kaczmarz method to obtain a fast convergence rate for SPRING, a variant of SNGD
+that is based on a regularized Kaczmarz method and is equivalent to an accelerated
+regularized Kaczmarz method. We also present a novel proof that SPRING can
+accelerate SNGD, which provides the first explanation for the effectiveness of
+SPRING outside of the least-squares setting.
+
+The remainder of this paper is"," neural networks. The most successful approaches, like
+SGD for linear optimization, and proximal gradient for non-linear optimization, use the
+convexity of the loss function to accelerate (convergence rates) and/or reduce (convergence
+guarantees) the number of iterations. Nonetheless, optimization using SGD and proximal
+gradient methods has not been shown to give the best possible convergence rate when applied
+to more general convex but non-convex problems, which can arise when optimization occurs
+for nonlinear models.
+In this paper, we focus on one such non-linear optimization problem, namely solving the
+minimum mean squared error (MMSE) problem for neural network waveforms, where the model
+represents a time-domain signal in phase-space. Given a neural network with a known model
+function, the optimization problem is:
+\begin{equation}
+\begin{aligned}
+  \min _{\mathbf{x}} &\;\; \mathcal{L","B"
+2508.21016v1,Inference-Time Alignment Control for Diffusion Models with Reinforcement Learning Guidance,"ith stringent generation requirements, such as
+compositional correctness (Ghosh, Hajishirzi, and Schmidt
+2023), fidelity in text render
+ability (Kalb et al. 2022), or data compression (Arora et al.
+2022). While RL (Liu et al. 2020) and other reinforcement
+learning (RL) methods have been adapted to these gener-
+ative frameworks, current RL approaches are suboptimal
+for diffusion models (Fu et al. 2021) and offer limited
+flexibility in controlling alignment strength after fine-tuning.
+In this work, we reinterpret RL fine-tuning for diffusion
+models through the lens of stochastic differential equations
+and implicit reward conditioning. We introduce Reinforcement
+Learning Guidance (RLG), an inference-time method that
+adapts Classifier-Free Guidance (CFG) by combining the
+outputs of the base and RL fine-tuned models via a geo-
+metric average. Our theoretical analysis shows that RLG’s
+guidance"," generative distribution consistent
+with human preferences (Kirstain et al. 2023) or ensuring
+compliance with stringent generation requirements, such as
+compositional correctness (Ghosh, Hajishirzi, and Schmidt
+2023), fidelity in text render
+-ing (Pedregosa, Veltman, and Vovk 2011), and compressibil-
+ity in computer graphics (Pedregosa et al. 2011). Existing
+methods aimed at improving alignment can be broadly categ-
+orized as follows: traditional RL (e.g., Stable Diffusion and
+GAN Imports in Translation (GIoT) networks; Esguerra et al.
+2021; Kim et al. 2021; Kang et al. 2021) and policy gradient
+(PG; Zhu et al. 2020; Yang et al. 2021, 2021) methods. The
+former focus on optimizing the generative model's parameters
+or the likelihood, while the latter is trained to maximize the
+reward function or the loss function in the target downstream
+task. However, both methods suffer from the drawback","B"
+2508.21010v1,ChainReaction! Structured Approach with Causal Chains as Intermediate Representations for Improved and Explainable Causal Video Question Answering,"OUR STRUCTURED 
+MODELING 
+APPROACH
+SCM 
+factorization
+Introduce 
+structured 
+mediation 
+via 𝓒
+Monolithic, blackbox design,
+Entangled processes
+Modular 
+design,
+Interpretable
+Figure 1: Concept. (1) Existing Video (V) Question (Q) An-
+swer (A) approaches through t
+he lens of causal inference.
+(2) Causal Chain Extractor (CCE) generates causal
+chains from VQA pairs.
+(3) Causal Chain-Driven Answerer (CCDA) produces
+answers grounded in these chains.
+(4) Causal Chain Extraction (CCE) extracts causal chains
+from video-question pairs.
+(5) Causal Chain-Driven Answerer (CCDA) generates
+causal chains from video-question pairs.
+(6) Causal Chain Extraction (CCE) extracts causal chains
+from video-question pairs.
+(7) Causal Chain-Driven Answerer (CCDA) generates
+causal chains from video-question pairs.
+(8) Causal Chain Extraction (CCE) extracts causal chains
+from video-question pairs.
+(9) Causal Chain-D","ODELING 
+APPROACH
+SCM 
+factorization
+Introduce 
+structured 
+mediation 
+via 𝓒
+Monolithic, blackbox design,
+Entangled processes
+Modular 
+design,
+Interpretable
+Figure 1: Concept. (1) Existing Video (V) Question (Q) An-
+swer (A) approaches through t
+
+(2) Representing 
+causal reasoning, 
+using 
+Causal 
+Chain 
+Extractor
+(CCE)
+Figure 2: Causal chain construction 
+for 
+causal 
+reasoning
+
+(1) Representing 
+causal
+Figure 3: Training of 
+both 
+modules 
+in 
+stages
+
+Figure 4: Sensitivity 
+to causal 
+chains
+
+Figure 5: Qualitative 
+results 
+
+Section 
+Experimental
+Setting and Data 
+Coverage
+
+Challenge 
+
+VideoQA models frequently rely on pre-existing frameworks
+for event, person, and system labeling, requiring heavy pre-
+training on such datasets. This pre-training step, however,
+does not allow models to learn generalizable, structured
+causal reasoning. 
+In this work, we propose a new framework for 
+
+(1)","B"

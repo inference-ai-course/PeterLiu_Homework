@@ -1,0 +1,131 @@
+[
+  {
+    "id": "2508.21070v1",
+    "title": "Dress&Dance: Dress up and Dance as You Like It - Technical Preview",
+    "summary": "We present Dress&Dance, a video diffusion framework that generates high\nquality 5-second-long 24 FPS virtual try-on videos at 1152x720 resolution of a\nuser wearing desired garments while moving in accordance with a given reference\nvideo. Our approach requires a single user image and supports a range of tops,\nbottoms, and one-piece garments, as well as simultaneous tops and bottoms\ntry-on in a single pass. Key to our framework is CondNet, a novel conditioning\nnetwork that leverages attention to unify multi-modal inputs (text, images, and\nvideos), thereby enhancing garment registration and motion fidelity. CondNet is\ntrained on heterogeneous training data, combining limited video data and a\nlarger, more readily available image dataset, in a multistage progressive\nmanner. Dress&Dance outperforms existing open source and commercial solutions\nand enables a high quality and flexible try-on experience.",
+    "authors": [
+      "Jun-Kun Chen",
+      "Aayush Bansal",
+      "Minh Phuoc Vo",
+      "Yu-Xiong Wang"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "2508.21061v1",
+    "title": "OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models",
+    "summary": "As multi-turn dialogues with large language models (LLMs) grow longer and\nmore complex, how can users better evaluate and review progress on their\nconversational goals? We present OnGoal, an LLM chat interface that helps users\nbetter manage goal progress. OnGoal provides real-time feedback on goal\nalignment through LLM-assisted evaluation, explanations for evaluation results\nwith examples, and overviews of goal progression over time, enabling users to\nnavigate complex dialogues more effectively. Through a study with 20\nparticipants on a writing task, we evaluate OnGoal against a baseline chat\ninterface without goal tracking. Using OnGoal, participants spent less time and\neffort to achieve their goals while exploring new prompting strategies to\novercome miscommunication, suggesting tracking and visualizing goals can\nenhance engagement and resilience in LLM dialogues. Our findings inspired\ndesign implications for future LLM chat interfaces that improve goal\ncommunication, reduce cognitive load, enhance interactivity, and enable\nfeedback to improve LLM performance.",
+    "authors": [
+      "Adam Coscia",
+      "Shunan Guo",
+      "Eunyee Koh",
+      "Alex Endert"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.HC"
+  },
+  {
+    "id": "2508.21051v1",
+    "title": "Enabling Equitable Access to Trustworthy Financial Reasoning",
+    "summary": "According to the United States Internal Revenue Service, ''the average\nAmerican spends $\\$270$ and 13 hours filing their taxes''. Even beyond the\nU.S., tax filing requires complex reasoning, combining application of\noverlapping rules with numerical calculations. Because errors can incur costly\npenalties, any automated system must deliver high accuracy and auditability,\nmaking modern large language models (LLMs) poorly suited for this task. We\npropose an approach that integrates LLMs with a symbolic solver to calculate\ntax obligations. We evaluate variants of this system on the challenging\nStAtutory Reasoning Assessment (SARA) dataset, and include a novel method for\nestimating the cost of deploying such a system based on real-world penalties\nfor tax errors. We further show how combining up-front translation of\nplain-text rules into formal logic programs, combined with intelligently\nretrieved exemplars for formal case representations, can dramatically improve\nperformance on this task and reduce costs to well below real-world averages.\nOur results demonstrate the promise and economic feasibility of neuro-symbolic\narchitectures for increasing equitable access to reliable tax assistance.",
+    "authors": [
+      "William Jurayj",
+      "Nils Holzenberger",
+      "Benjamin Van Durme"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "2508.21049v1",
+    "title": "Re-Representation in Sentential Relation Extraction with Sequence Routing Algorithm",
+    "summary": "Sentential relation extraction (RE) is an important task in natural language\nprocessing (NLP). In this paper we propose to do sentential RE with dynamic\nrouting in capsules. We first show that the proposed approach outperform state\nof the art on common sentential relation extraction datasets Tacred, Tacredrev,\nRetacred, and Conll04. We then investigate potential reasons for its good\nperformance on the mentioned datasets, and yet low performance on another\nsimilar, yet larger sentential RE dataset, Wikidata. As such, we identify noise\nin Wikidata labels as one of the reasons that can hinder performance.\nAdditionally, we show associativity of better performance with better\nre-representation, a term from neuroscience referred to change of\nrepresentation in human brain to improve the match at comparison time. As\nexample, in the given analogous terms King:Queen::Man:Woman, at comparison\ntime, and as a result of re-representation, the similarity between related head\nterms (King,Man), and tail terms (Queen,Woman) increases. As such, our\nobservation show that our proposed model can do re-representation better than\nthe vanilla model compared with. To that end, beside noise in the labels of the\ndistantly supervised RE datasets, we propose re-representation as a challenge\nin sentential RE.",
+    "authors": [
+      "Ramazan Ali Bahrami",
+      "Ramin Yahyapour"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "2508.21040v1",
+    "title": "FW-GAN: Frequency-Driven Handwriting Synthesis with Wave-Modulated MLP Generator",
+    "summary": "Labeled handwriting data is often scarce, limiting the effectiveness of\nrecognition systems that require diverse, style-consistent training samples.\nHandwriting synthesis offers a promising solution by generating artificial data\nto augment training. However, current methods face two major limitations.\nFirst, most are built on conventional convolutional architectures, which\nstruggle to model long-range dependencies and complex stroke patterns. Second,\nthey largely ignore the crucial role of frequency information, which is\nessential for capturing fine-grained stylistic and structural details in\nhandwriting. To address these challenges, we propose FW-GAN, a one-shot\nhandwriting synthesis framework that generates realistic, writer-consistent\ntext from a single example. Our generator integrates a phase-aware Wave-MLP to\nbetter capture spatial relationships while preserving subtle stylistic cues. We\nfurther introduce a frequency-guided discriminator that leverages\nhigh-frequency components to enhance the authenticity detection of generated\nsamples. Additionally, we introduce a novel Frequency Distribution Loss that\naligns the frequency characteristics of synthetic and real handwriting, thereby\nenhancing visual fidelity. Experiments on Vietnamese and English handwriting\ndatasets demonstrate that FW-GAN generates high-quality, style-consistent\nhandwriting, making it a valuable tool for augmenting data in low-resource\nhandwriting recognition (HTR) pipelines. Official implementation is available\nat https://github.com/DAIR-Group/FW-GAN",
+    "authors": [
+      "Huynh Tong Dang Khoa",
+      "Dang Hoai Nam",
+      "Vo Nguyen Le Duy"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.CV"
+  },
+  {
+    "id": "2508.21038v1",
+    "title": "On the Theoretical Limitations of Embedding-Based Retrieval",
+    "summary": "Vector embeddings have been tasked with an ever-increasing set of retrieval\ntasks over the years, with a nascent rise in using them for reasoning,\ninstruction-following, coding, and more. These new benchmarks push embeddings\nto work for any query and any notion of relevance that could be given. While\nprior works have pointed out theoretical limitations of vector embeddings,\nthere is a common assumption that these difficulties are exclusively due to\nunrealistic queries, and those that are not can be overcome with better\ntraining data and larger models. In this work, we demonstrate that we may\nencounter these theoretical limitations in realistic settings with extremely\nsimple queries. We connect known results in learning theory, showing that the\nnumber of top-k subsets of documents capable of being returned as the result of\nsome query is limited by the dimension of the embedding. We empirically show\nthat this holds true even if we restrict to k=2, and directly optimize on the\ntest set with free parameterized embeddings. We then create a realistic dataset\ncalled LIMIT that stress tests models based on these theoretical results, and\nobserve that even state-of-the-art models fail on this dataset despite the\nsimple nature of the task. Our work shows the limits of embedding models under\nthe existing single vector paradigm and calls for future research to develop\nmethods that can resolve this fundamental limitation.",
+    "authors": [
+      "Orion Weller",
+      "Michael Boratko",
+      "Iftekhar Naim",
+      "Jinhyuk Lee"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.IR"
+  },
+  {
+    "id": "2508.21024v1",
+    "title": "An Agile Method for Implementing Retrieval Augmented Generation Tools in Industrial SMEs",
+    "summary": "Retrieval-Augmented Generation (RAG) has emerged as a powerful solution to\nmitigate the limitations of Large Language Models (LLMs), such as\nhallucinations and outdated knowledge. However, deploying RAG-based tools in\nSmall and Medium Enterprises (SMEs) remains a challenge due to their limited\nresources and lack of expertise in natural language processing (NLP). This\npaper introduces EASI-RAG, Enterprise Application Support for Industrial RAG, a\nstructured, agile method designed to facilitate the deployment of RAG systems\nin industrial SME contexts. EASI-RAG is based on method engineering principles\nand comprises well-defined roles, activities, and techniques. The method was\nvalidated through a real-world case study in an environmental testing\nlaboratory, where a RAG tool was implemented to answer operators queries using\ndata extracted from operational procedures. The system was deployed in under a\nmonth by a team with no prior RAG experience and was later iteratively improved\nbased on user feedback. Results demonstrate that EASI-RAG supports fast\nimplementation, high user adoption, delivers accurate answers, and enhances the\nreliability of underlying data. This work highlights the potential of RAG\ndeployment in industrial SMEs. Future works include the need for generalization\nacross diverse use cases and further integration with fine-tuned models.",
+    "authors": [
+      "Mathieu Bourdin",
+      "Anas Neumann",
+      "Thomas Paviot",
+      "Robert Pellerin",
+      "Samir Lamouri"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.CL"
+  },
+  {
+    "id": "2508.21022v1",
+    "title": "Fast Convergence Rates for Subsampled Natural Gradient Algorithms on Quadratic Model Problems",
+    "summary": "Subsampled natural gradient descent (SNGD) has shown impressive results for\nparametric optimization tasks in scientific machine learning, such as neural\nnetwork wavefunctions and physics-informed neural networks, but it has lacked a\ntheoretical explanation. We address this gap by analyzing the convergence of\nSNGD and its accelerated variant, SPRING, for idealized parametric optimization\nproblems where the model is linear and the loss function is strongly convex and\nquadratic. In the special case of a least-squares loss, namely the standard\nlinear least-squares problem, we prove that SNGD is equivalent to a regularized\nKaczmarz method while SPRING is equivalent to an accelerated regularized\nKaczmarz method. As a result, by leveraging existing analyses we obtain under\nmild conditions (i) the first fast convergence rate for SNGD, (ii) the first\nconvergence guarantee for SPRING in any setting, and (iii) the first proof that\nSPRING can accelerate SNGD. In the case of a general strongly convex quadratic\nloss, we extend the analysis of the regularized Kaczmarz method to obtain a\nfast convergence rate for SNGD under stronger conditions, providing the first\nexplanation for the effectiveness of SNGD outside of the least-squares setting.\nOverall, our results illustrate how tools from randomized linear algebra can\nshed new light on the interplay between subsampling and curvature-aware\noptimization strategies.",
+    "authors": [
+      "Gil Goldshlager",
+      "Jiang Hu",
+      "Lin Lin"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "2508.21016v1",
+    "title": "Inference-Time Alignment Control for Diffusion Models with Reinforcement Learning Guidance",
+    "summary": "Denoising-based generative models, particularly diffusion and flow matching\nalgorithms, have achieved remarkable success. However, aligning their output\ndistributions with complex downstream objectives, such as human preferences,\ncompositional accuracy, or data compressibility, remains challenging. While\nreinforcement learning (RL) fine-tuning methods, inspired by advances in RL\nfrom human feedback (RLHF) for large language models, have been adapted to\nthese generative frameworks, current RL approaches are suboptimal for diffusion\nmodels and offer limited flexibility in controlling alignment strength after\nfine-tuning. In this work, we reinterpret RL fine-tuning for diffusion models\nthrough the lens of stochastic differential equations and implicit reward\nconditioning. We introduce Reinforcement Learning Guidance (RLG), an\ninference-time method that adapts Classifier-Free Guidance (CFG) by combining\nthe outputs of the base and RL fine-tuned models via a geometric average. Our\ntheoretical analysis shows that RLG's guidance scale is mathematically\nequivalent to adjusting the KL-regularization coefficient in standard RL\nobjectives, enabling dynamic control over the alignment-quality trade-off\nwithout further training. Extensive experiments demonstrate that RLG\nconsistently improves the performance of RL fine-tuned models across various\narchitectures, RL algorithms, and downstream tasks, including human\npreferences, compositional control, compressibility, and text rendering.\nFurthermore, RLG supports both interpolation and extrapolation, thereby\noffering unprecedented flexibility in controlling generative alignment. Our\napproach provides a practical and theoretically sound solution for enhancing\nand controlling diffusion model alignment at inference. The source code for RLG\nis publicly available at the Github:\nhttps://github.com/jinluo12345/Reinforcement-learning-guidance.",
+    "authors": [
+      "Luozhijie Jin",
+      "Zijie Qiu",
+      "Jie Liu",
+      "Zijie Diao",
+      "Lifeng Qiao",
+      "Ning Ding",
+      "Alex Lamb",
+      "Xipeng Qiu"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.LG"
+  },
+  {
+    "id": "2508.21010v1",
+    "title": "ChainReaction! Structured Approach with Causal Chains as Intermediate Representations for Improved and Explainable Causal Video Question Answering",
+    "summary": "Existing Causal-Why Video Question Answering (VideoQA) models often struggle\nwith higher-order reasoning, relying on opaque, monolithic pipelines that\nentangle video understanding, causal inference, and answer generation. These\nblack-box approaches offer limited interpretability and tend to depend on\nshallow heuristics. We propose a novel, modular framework that explicitly\ndecouples causal reasoning from answer generation, introducing natural language\ncausal chains as interpretable intermediate representations. Inspired by human\ncognitive models, these structured cause-effect sequences bridge low-level\nvideo content with high-level causal reasoning, enabling transparent and\nlogically coherent inference. Our two-stage architecture comprises a Causal\nChain Extractor (CCE) that generates causal chains from video-question pairs,\nand a Causal Chain-Driven Answerer (CCDA) that produces answers grounded in\nthese chains. To address the lack of annotated reasoning traces, we introduce a\nscalable method for generating high-quality causal chains from existing\ndatasets using large language models. We also propose CauCo, a new evaluation\nmetric for causality-oriented captioning. Experiments on three large-scale\nbenchmarks demonstrate that our approach not only outperforms state-of-the-art\nmodels, but also yields substantial gains in explainability, user trust, and\ngeneralization -- positioning the CCE as a reusable causal reasoning engine\nacross diverse domains. Project page:\nhttps://paritoshparmar.github.io/chainreaction/",
+    "authors": [
+      "Paritosh Parmar",
+      "Eric Peh",
+      "Basura Fernando"
+    ],
+    "published": "2025-08-28",
+    "primary_category": "cs.CV"
+  }
+]
