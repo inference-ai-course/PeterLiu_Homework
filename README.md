@@ -20,7 +20,7 @@ Week 7 – LLM Fine-Tuning (LoRA & QLoRA)
 
 Week 8 – Multimodal Summarization + Reward Modeling
 
-TCM Voice Assistant Demo
+Week 9-10 - TCM Voice Assistant Demo
 
 Contact
 
@@ -202,7 +202,7 @@ pip install streamlit openai python-dotenv numpy SpeechRecognition gTTS playsoun
 streamlit run voice_tcm_agent/voice_tcm_agent.py
 
 
-📁 Folder: voice_tcm_agent/
+📁 Folder: howmwork910/
 
 Contact
 
