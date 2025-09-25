@@ -16,7 +16,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Plugin-capable agent: Brave Search, Puppeteer, filesystem, Notion, GitHub APIs
   - Optional: Automatic scraping & saving to Notion
 - **Folder:** `homework1/`
-- **Screenshot:** ![Week1 Screenshot]
+- **Screenshot:** ![Week1 Screenshot]()
 </details>
 
 <details>
@@ -45,7 +45,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - FastAPI endpoint `/voice-chat/`
   - Optional Docker deployment
 - **Folder:** `homework3/`
-- **Screenshot:** ![Week3 Screenshot](homework3/screenshot.png)
+- **Screenshot:** ![Week3 Screenshot](homework3/screenshots)
 </details>
 
 <details>
@@ -60,7 +60,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - FAISS vector similarity search
   - Notebook demo + FastAPI `/search` endpoint
 - **Folder:** `homework4/`
-- **Screenshot:** ![Week4 Screenshot](homework4/screenshot.png)
+- **Screenshot:** ![Week4 Screenshot](homework4/screenshots)
 </details>
 
 <details>
@@ -74,7 +74,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Human-in-the-loop spot checks
   - FastAPI `/hybrid-search` endpoint
 - **Folder:** `homework5/`
-- **Screenshot:** ![Week5 Screenshot](homework5/screenshot.png)
+- **Screenshot:** ![Week5 Screenshot](homework5/screenshots)
 </details>
 
 <details>
@@ -88,7 +88,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - TTS with pyttsx3, multi-turn chat bubbles
   - FastAPI backend `/docs` + Streamlit `/voice`
 - **Folder:** `homework6/`
-- **Screenshot:** ![Week6 Screenshot](homework6/screenshot.png)
+- **Screenshot:** ![Week6 Screenshot](homework6/screenshots)
 </details>
 
 <details>
@@ -102,7 +102,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Evaluation vs base model
   - Saved adapters for inference
 - **Folder:** `homework7/`
-- **Screenshot:** ![Week7 Screenshot]
+- **Screenshot:** ![Week7 Screenshot](homework7/screenshots)
 </details>
 
 <details>
