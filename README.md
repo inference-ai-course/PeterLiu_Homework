@@ -16,7 +16,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Plugin-capable agent: Brave Search, Puppeteer, filesystem, Notion, GitHub APIs
   - Optional: Automatic scraping & saving to Notion
 - **Folder:** `homework1/`
-- **Screenshot:** ![Week1 Screenshot](homework1/screenshot.png)
+- **Screenshot:** ![Week1 Screenshot]
 </details>
 
 <details>
@@ -30,7 +30,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Final clean dataset in JSONL
   - Modular Jupyter notebooks
 - **Folder:** `homework2/`
-- **Screenshot:** ![Week2 Screenshot](homework2/screenshot.png)
+- **Screenshot:** 
 </details>
 
 <details>
@@ -102,7 +102,7 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Evaluation vs base model
   - Saved adapters for inference
 - **Folder:** `homework7/`
-- **Screenshot:** ![Week7 Screenshot](homework7/screenshot.png)
+- **Screenshot:** ![Week7 Screenshot]
 </details>
 
 <details>
@@ -120,8 +120,8 @@ This repository contains my **Machine Learning Engineering (MLE) homework submis
   - Multimodal: figure captions included in prompt
   - Configurable LLM: default `Meta-Llama-3-8B-Instruct`
   - Reward training via TRL `PairwiseRewardTrainer`
-- **Folder:** `wk8_multimodal_reward/`
-- **Screenshot:** ![Week8 Screenshot](wk8_multimodal_reward/screenshot.png)
+- **Folder:** `homework8/`
+- **Screenshot:** 
 </details>
 
 <details>
