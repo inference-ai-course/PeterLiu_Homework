@@ -13,7 +13,9 @@ This project implements a local, modular **Voice Agent** powered by:
 ---
 
 ## 📁 Folder Structure
-'''bash
+
+bash
+
 homework3/
 ├── audio/ # Stores input .wav and output .mp3 audio files
 ├── main.py # FastAPI backend: handles API requests
@@ -98,4 +100,5 @@ Peter Liu
 Assignment for: Machine Learning Engineer in the Generative AI Era
 GitHub: @Petercgliu
   
+
 
