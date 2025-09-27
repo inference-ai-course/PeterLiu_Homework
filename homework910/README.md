@@ -32,7 +32,7 @@ It combines:
 - [python-dotenv](https://pypi.org/project/python-dotenv/) – load API key from `.env`  
 
 ---
-https://homework910/TCM_voice_screenshots/
+https://homework910/TCM_voice_screenshots
 ## Setup
 
 1. Clone or download the project.  
